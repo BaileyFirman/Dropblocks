@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  Dropblocks
 //
-//  Created by Bailey Firman on 9/04/20.
+//  Created by Bailey Firman on 4/04/20.
 //  Copyright © 2020 Bailey Firman. All rights reserved.
 //
 
@@ -14,32 +14,15 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Load 'GameScene.sks' as a GKScene. This provides gameplay related content
-        // including entities and graphs.
-        if let scene = GKScene(fileNamed: "GameScene") {
-            
-            // Get the SKScene from the loaded GKScene
-            if let sceneNode = scene.rootNode as! GameScene? {
-                
-                // Copy gameplay related content over to the scene
-                sceneNode.entities = scene.entities
-                sceneNode.graphs = scene.graphs
-                
-                // Set the scale mode to scale to fit the window
-                sceneNode.scaleMode = .aspectFill
-                
-                // Present the scene
-                if let view = self.view as! SKView? {
-                    view.presentScene(sceneNode)
-                    
-                    view.ignoresSiblingOrder = true
-                    
-                    view.showsFPS = true
-                    view.showsNodeCount = true
-                }
-            }
+
+        let scene = GameScene(size: view.bounds.size)
+        guard let skView = view as? SKView else {
+            return
         }
+
+        scene.scaleMode = .resizeFill
+        skView.presentScene(scene)
+        skView.ignoresSiblingOrder = true
     }
 
     override var shouldAutorotate: Bool {
