@@ -6,7 +6,9 @@ Tapping the left or right hand side of your iPhone will swap the outermost left 
 
 
 ## Demo
-![demo](demo.gif)
+<p align="center">
+  <img src="demo.gif" alt="Dropblocks demo" height="500"/>
+</p>
 
 ## Extras
 This project uses [swiftlint](https://github.com/realm/SwiftLint) which can be installed via homebrew
