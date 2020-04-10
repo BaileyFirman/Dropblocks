@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D40882D1243E91D200B49344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9E8FD243E8DFA001228F7 /* AppDelegate.swift */; };
+		D40882D2243E91D400B49344 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4A9E8FF243E8DFA001228F7 /* GameScene.sks */; };
+		D40882D3243E91D600B49344 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4A9E901243E8DFA001228F7 /* Actions.sks */; };
+		D40882D4243E91D900B49344 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9E903243E8DFA001228F7 /* GameScene.swift */; };
+		D40882D5243E91DB00B49344 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9E905243E8DFA001228F7 /* GameViewController.swift */; };
+		D40882D6243E91DF00B49344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A9E907243E8DFB001228F7 /* Main.storyboard */; };
+		D40882D7243E91E100B49344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A9E90A243E8E00001228F7 /* Assets.xcassets */; };
+		D40882D8243E91E300B49344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A9E90C243E8E00001228F7 /* LaunchScreen.storyboard */; };
+		D40882E6243E92DA00B49344 /* Positioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882E4243E92DA00B49344 /* Positioning.swift */; };
+		D40882E7243E92DA00B49344 /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882E5243E92DA00B49344 /* Physics.swift */; };
+		D40882EB243E92F600B49344 /* DropBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882E8243E92F600B49344 /* DropBlock.swift */; };
+		D40882EC243E92F600B49344 /* PlayerBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882E9243E92F600B49344 /* PlayerBlock.swift */; };
+		D40882ED243E92F600B49344 /* Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882EA243E92F600B49344 /* Blocks.swift */; };
+		D40882EF243E92FE00B49344 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882EE243E92FE00B49344 /* Random.swift */; };
+		D40882F1243E930800B49344 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882F0243E930800B49344 /* Extensions.swift */; };
+		D40882F2243E933400B49344 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4A9E91A243E8E00001228F7 /* Info.plist */; };
+		D40882F4243EDC6C00B49344 /* GameActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882F3243EDC6C00B49344 /* GameActions.swift */; };
+		D40882F8243EF02D00B49344 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882F7243EF02D00B49344 /* Labels.swift */; };
+		D40882FA243EFEDC00B49344 /* Lives.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40882F9243EFEDC00B49344 /* Lives.swift */; };
 		D4A9E8FE243E8DFA001228F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A9E8FD243E8DFA001228F7 /* AppDelegate.swift */; };
 		D4A9E900243E8DFA001228F7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4A9E8FF243E8DFA001228F7 /* GameScene.sks */; };
 		D4A9E902243E8DFA001228F7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4A9E901243E8DFA001228F7 /* Actions.sks */; };
@@ -29,6 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D40882E4243E92DA00B49344 /* Positioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Positioning.swift; path = World/Positioning.swift; sourceTree = "<group>"; };
+		D40882E5243E92DA00B49344 /* Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Physics.swift; path = World/Physics.swift; sourceTree = "<group>"; };
+		D40882E8243E92F600B49344 /* DropBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropBlock.swift; path = Blocks/DropBlock.swift; sourceTree = "<group>"; };
+		D40882E9243E92F600B49344 /* PlayerBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerBlock.swift; path = Blocks/PlayerBlock.swift; sourceTree = "<group>"; };
+		D40882EA243E92F600B49344 /* Blocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Blocks.swift; path = Blocks/Blocks.swift; sourceTree = "<group>"; };
+		D40882EE243E92FE00B49344 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Random.swift; path = Utils/Random.swift; sourceTree = "<group>"; };
+		D40882F0243E930800B49344 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extensions/Extensions.swift; sourceTree = "<group>"; };
+		D40882F3243EDC6C00B49344 /* GameActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameActions.swift; path = World/GameActions.swift; sourceTree = "<group>"; };
+		D40882F7243EF02D00B49344 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Labels.swift; path = World/Labels.swift; sourceTree = "<group>"; };
+		D40882F9243EFEDC00B49344 /* Lives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Lives.swift; path = World/Lives.swift; sourceTree = "<group>"; };
 		D4A9E8FA243E8DFA001228F7 /* Dropblocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropblocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A9E8FD243E8DFA001228F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4A9E8FF243E8DFA001228F7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -83,15 +112,25 @@
 		D4A9E8FC243E8DFA001228F7 /* Dropblocks */ = {
 			isa = PBXGroup;
 			children = (
-				D4A9E8FD243E8DFA001228F7 /* AppDelegate.swift */,
-				D4A9E8FF243E8DFA001228F7 /* GameScene.sks */,
 				D4A9E901243E8DFA001228F7 /* Actions.sks */,
+				D4A9E8FD243E8DFA001228F7 /* AppDelegate.swift */,
+				D4A9E90A243E8E00001228F7 /* Assets.xcassets */,
+				D40882EA243E92F600B49344 /* Blocks.swift */,
+				D40882E8243E92F600B49344 /* DropBlock.swift */,
+				D40882F0243E930800B49344 /* Extensions.swift */,
+				D40882F3243EDC6C00B49344 /* GameActions.swift */,
+				D4A9E8FF243E8DFA001228F7 /* GameScene.sks */,
 				D4A9E903243E8DFA001228F7 /* GameScene.swift */,
 				D4A9E905243E8DFA001228F7 /* GameViewController.swift */,
-				D4A9E907243E8DFB001228F7 /* Main.storyboard */,
-				D4A9E90A243E8E00001228F7 /* Assets.xcassets */,
-				D4A9E90C243E8E00001228F7 /* LaunchScreen.storyboard */,
 				D4A9E90F243E8E00001228F7 /* Info.plist */,
+				D4A9E90C243E8E00001228F7 /* LaunchScreen.storyboard */,
+				D4A9E907243E8DFB001228F7 /* Main.storyboard */,
+				D40882E5243E92DA00B49344 /* Physics.swift */,
+				D40882E9243E92F600B49344 /* PlayerBlock.swift */,
+				D40882E4243E92DA00B49344 /* Positioning.swift */,
+				D40882EE243E92FE00B49344 /* Random.swift */,
+				D40882F7243EF02D00B49344 /* Labels.swift */,
+				D40882F9243EFEDC00B49344 /* Lives.swift */,
 			);
 			path = Dropblocks;
 			sourceTree = "<group>";
@@ -112,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4A9E91D243E8E00001228F7 /* Build configuration list for PBXNativeTarget "Dropblocks" */;
 			buildPhases = (
+				D41A7816243FFA0F0096ADA9 /* ShellScript */,
 				D4A9E8F6243E8DFA001228F7 /* Sources */,
 				D4A9E8F7243E8DFA001228F7 /* Frameworks */,
 				D4A9E8F8243E8DFA001228F7 /* Resources */,
@@ -198,10 +238,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40882D8243E91E300B49344 /* LaunchScreen.storyboard in Resources */,
+				D40882D6243E91DF00B49344 /* Main.storyboard in Resources */,
+				D40882F2243E933400B49344 /* Info.plist in Resources */,
+				D40882D3243E91D600B49344 /* Actions.sks in Resources */,
+				D40882D2243E91D400B49344 /* GameScene.sks in Resources */,
+				D40882D7243E91E100B49344 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D41A7816243FFA0F0096ADA9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4A9E8F6243E8DFA001228F7 /* Sources */ = {
@@ -210,7 +276,17 @@
 			files = (
 				D4A9E904243E8DFA001228F7 /* GameScene.swift in Sources */,
 				D4A9E906243E8DFB001228F7 /* GameViewController.swift in Sources */,
+				D40882F8243EF02D00B49344 /* Labels.swift in Sources */,
+				D40882E7243E92DA00B49344 /* Physics.swift in Sources */,
 				D4A9E8FE243E8DFA001228F7 /* AppDelegate.swift in Sources */,
+				D40882EB243E92F600B49344 /* DropBlock.swift in Sources */,
+				D40882F4243EDC6C00B49344 /* GameActions.swift in Sources */,
+				D40882F1243E930800B49344 /* Extensions.swift in Sources */,
+				D40882FA243EFEDC00B49344 /* Lives.swift in Sources */,
+				D40882ED243E92F600B49344 /* Blocks.swift in Sources */,
+				D40882EC243E92F600B49344 /* PlayerBlock.swift in Sources */,
+				D40882E6243E92DA00B49344 /* Positioning.swift in Sources */,
+				D40882EF243E92FE00B49344 /* Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40882D5243E91DB00B49344 /* GameViewController.swift in Sources */,
+				D40882D4243E91D900B49344 /* GameScene.swift in Sources */,
+				D40882D1243E91D200B49344 /* AppDelegate.swift in Sources */,
 				D4A9E919243E8E00001228F7 /* DropblocksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
